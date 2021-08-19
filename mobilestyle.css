@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 62.5%;
+}
+body{
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-size: 100vw 100%;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.container{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5rem 1.5rem;
+  border-radius: 2.5rem;
+  width: 320px;
+  height: 600px;
+}
+
+.container_img{
+  border-radius: 2.5rem 2.5rem 0rem 0rem;
+  width: 100%;
+}
+
+.container_text{
+  margin-top: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container_text h2{
+  color: hsl(223, 47%, 23%);
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.container_text p{
+  color: hsl(224, 23%, 55%);
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.song{
+  margin: 0rem 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  background-color: rgba(155, 155, 155, 0.07);
+  width: 100%;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.song strong{
+  color: hsl(223, 47%, 23%);
+}
+
+.song p{
+  color: hsl(224, 23%, 55%);
+}
+
+.song_row3  a{
+  color: blueviolet;
+}
+.song_row3  strong{
+  color: blueviolet;
+}
+
+.pago{
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttom{
+  border-radius: 1.5rem;
+border-style: none;
+  color: white;
+  padding: 1.5rem 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  width: 90%;
+  background-color: hsl(245, 75%, 47%);
+}
+
+.cancelar_pago{
+  color: hsl(224, 23%, 55%);
+  margin: 2rem 0rem;
+  text-decoration: none;
+}
+
